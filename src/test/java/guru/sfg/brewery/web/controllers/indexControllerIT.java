@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-public class indexControllerIT extends BaseIT {
+public class IndexControllerIT extends BaseIT {
 
     @Test
     void testGetIndexSlash() throws Exception {
